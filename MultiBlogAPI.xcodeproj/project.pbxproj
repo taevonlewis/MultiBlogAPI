@@ -6,20 +6,9 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXCopyFilesBuildPhase section */
-		CE444EAE2CC9F9B6005E4AFD /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		CE444EB02CC9F9B6005E4AFD /* MultiBlogAPI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MultiBlogAPI; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE444EC72CC9FF3E005E4AFD /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +33,7 @@
 		CE444EA72CC9F9B6005E4AFD = {
 			isa = PBXGroup;
 			children = (
+				CE444EC72CC9FF3E005E4AFD /* .gitignore */,
 				CE444EB22CC9F9B6005E4AFD /* MultiBlogAPI */,
 				CE444EB12CC9F9B6005E4AFD /* Products */,
 			);
@@ -66,7 +56,7 @@
 			buildPhases = (
 				CE444EAC2CC9F9B6005E4AFD /* Sources */,
 				CE444EAD2CC9F9B6005E4AFD /* Frameworks */,
-				CE444EAE2CC9F9B6005E4AFD /* CopyFiles */,
+				CE4FBEFA2CCB032600985E46 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,6 +105,16 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE4FBEFA2CCB032600985E46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE444EAC2CC9F9B6005E4AFD /* Sources */ = {
